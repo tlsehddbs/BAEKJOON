@@ -16,6 +16,4 @@ int main()
         cout << "D" << endl;
     if(0 <= a && a <= 59)
         cout << "F" << endl;
-
-    return 0;
 }

@@ -7,13 +7,11 @@ int main()
     cin >> x >> y;
 
     if(x > 0 && y > 0)
-        cout << "1" << endl;
+        cout << "1";
     if(x < 0 && y > 0)
-        cout << "2" << endl;
+        cout << "2";
     if(x < 0 && y < 0)
-        cout << "3" << endl;
+        cout << "3";
     if(x > 0 && y < 0)
-        cout << "4" << endl;
-
-    return 0;
+        cout << "4";
 }

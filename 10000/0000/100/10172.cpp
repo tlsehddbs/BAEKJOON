@@ -1,13 +1,10 @@
 #include <iostream>
-using namespace std;
 
 int main()
 {
-    cout << "|\\_/|\n"
+    std::cout << "|\\_/|\n"
          << "|q p|   /}\n"
          << "( 0 )\"\"\"\\\n"
          << "|\"^\"`    |\n"
-         << "||_/=\\\\__|" << endl;
-
-    return 0;
+         << "||_/=\\\\__|";
 }

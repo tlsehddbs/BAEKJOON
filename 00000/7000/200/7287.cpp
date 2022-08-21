@@ -5,6 +5,4 @@ int main()
 {
     cout << "19" << endl;
     cout << "jamesshin47" << endl;
-    
-    return 0;
 }
