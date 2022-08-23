@@ -1,18 +1,16 @@
 #include <iostream>
 
-using namespace std;
-
 int main()
 {
     int n;
-    cin >> n;
+    std::cin >> n;
 
     for(int i = 1; i <= n; i++)
     {
         for(int j = i; j < n; j++)
-            cout << " ";
+            std::cout << " ";
         for(int j = 1; j <= i; j++)
-            cout << "*";
-        cout << "\n";
+            std::cout << "*";
+        std::cout << "\n";
     }
 }

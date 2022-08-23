@@ -11,8 +11,8 @@ int main()
         sum += a * b;
     }
     
-    if(bill == sum)
+    if(bill == sum) 
         std::cout << "Yes";
-    else
+    else 
         std::cout << "No";
 }

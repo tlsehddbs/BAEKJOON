@@ -20,6 +20,5 @@ int main()
         if(dp > arr[i])
             dp = arr[i];
     }
-
     std::cout << bp + dp - 50;
 }

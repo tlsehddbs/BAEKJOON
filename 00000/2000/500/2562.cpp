@@ -13,6 +13,5 @@ int main()
             idx = i;
         }
     }
-
     std::cout << max << "\n" << idx;
 }
