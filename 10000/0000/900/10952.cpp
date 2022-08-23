@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 int main()
 {
@@ -7,10 +6,10 @@ int main()
     
     while(true)
     {
-        cin >> a >> b;
+        std::cin >> a >> b;
         if(a == 0 && b == 0)
             break;
             
-        cout << a + b << endl;
+        std::cout << a + b << "\n";
     }
 }

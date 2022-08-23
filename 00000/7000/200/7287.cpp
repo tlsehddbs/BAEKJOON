@@ -1,8 +1,7 @@
 #include <iostream>
-using namespace std;
 
 int main()
 {
-    cout << "19" << endl;
-    cout << "jamesshin47" << endl;
+    std::cout << "19\n";
+    std::cout << "jamesshin47\n";
 }
