@@ -4,7 +4,6 @@ int main()
 {
     int l, a, b, c, d, m, k;
     std::cin >> l >> a >> b >> c >> d;
-    
     m = a / c;
     if(a % c != 0)
         m++;

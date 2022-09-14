@@ -4,7 +4,6 @@ int main()
 {
     int a, b, c;
     std::cin >> a >> b >> c;
-
     if(a == b && b == c)
         std::cout << 10000 + a * 1000;
     else if(a == b || a == c)

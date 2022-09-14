@@ -4,7 +4,6 @@ int main()
 {
     std::string str;
     std::cin >> str;
-
     if(str == "걸.걸.걸")
         std::cout << "더 사랑할걸, 더 참을걸, 더 즐길걸.";
     else if(str == "사.우.나")

@@ -7,7 +7,6 @@ int main()
     
     int n;
     std::string str;
-
     std::cin >> n;
     for(int i = 0; i < n; i++)
     {

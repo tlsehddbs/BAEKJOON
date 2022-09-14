@@ -7,12 +7,10 @@ int main()
     
     int t, s, n, q, p;
     std::cin >> t;
-
     for(int i = 0; i < t; i++)
     {
         int sum = 0;
         std::cin >> s >> n;
-
         sum += s;
         for(int j = 0; j < n; j++)
         {

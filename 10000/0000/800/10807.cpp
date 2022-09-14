@@ -7,11 +7,9 @@ int main()
 
     int n, arr[1001] = {}, v, cnt = 0;
     std::cin >> n;
-
     for(int i = 0; i < n; i++)
         std::cin >> arr[i];
     std::cin >> v;
-
     for(int i = 0; i < n; i++)
         if(arr[i] == v)
             cnt++;

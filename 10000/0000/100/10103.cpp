@@ -7,7 +7,6 @@ int main()
 
     int n, a, b, x = 100, y = 100;
     std::cin >> n;
-
     for(int i = 0; i < n; i++)
     {
         std::cin >> a >> b;

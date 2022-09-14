@@ -9,9 +9,7 @@ int main()
     int t;
     float a;
     std::string str;
-
     std::cin >> t;
-    
     for(int i = 0; i < t; i++)
     {
         std::cin >> a;

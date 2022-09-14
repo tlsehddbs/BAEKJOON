@@ -6,9 +6,7 @@ int main()
     std::cin.tie(NULL);
 
     int n, r, e, c;
-
     std::cin >> n;
-
     for(int i = 0; i < n; i++)
     {
         std::cin >> r >> e >> c;

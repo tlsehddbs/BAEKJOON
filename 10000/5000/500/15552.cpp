@@ -8,9 +8,7 @@ int main()
     cin.tie(NULL);
 
     int t, a, b;
-
     cin >> t;
-
     for (int i = 0; i < t; i++)
     {
         cin >> a >> b;

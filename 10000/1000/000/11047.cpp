@@ -6,7 +6,6 @@ int main()
     std::cin >> n >> k;
     for(int i = 0; i < n; i++)
         std::cin >> arr[i];
-
     while(k != 0)
     {
         int i = n - 1;

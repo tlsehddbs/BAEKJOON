@@ -8,7 +8,6 @@ int main()
     int t, arr[6] = {};
     float price[5] = { 350.34, 230.90, 190.55, 125.30, 180.90 };
     std::cin >> t;
-
     for(int i = 0; i < t; i++)
     {
         float sum = 0;

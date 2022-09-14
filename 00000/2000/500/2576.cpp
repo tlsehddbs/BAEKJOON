@@ -3,7 +3,6 @@
 int main()
 {
     int arr[8] = {}, sum = 0, min = 101;
-
     for(int i = 0; i < 7; i++)
     {
         std::cin >> arr[i];

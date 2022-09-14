@@ -8,7 +8,6 @@ int main()
 
     int t, arr[11] = {};
     std::cin >> t;
-
     for(int i = 0; i < t; i++)
     {
         for(int j = 0; j < 10; j++)

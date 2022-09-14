@@ -13,7 +13,6 @@ int main()
             s = i;
         }
     }
-
     if(sum >= 100)
         std::cout << "OK";
     else

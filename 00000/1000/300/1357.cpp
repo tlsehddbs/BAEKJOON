@@ -1,20 +1,17 @@
 #include <iostream>
 #include <algorithm>
 
-using namespace std;
-
 int main()
 {
-    string x, y;
-    cin >> x >> y;
-
-    reverse(x.begin(), x.end());
-    reverse(y.begin(), y.end());
-    int xx = stoi(x);
-    int yy = stoi(y);
+    std::string x, y;
+    std::cin >> x >> y;
+    std::reverse(x.begin(), x.end());
+    std::reverse(y.begin(), y.end());
+    int xx = std::stoi(x);
+    int yy = std::stoi(y);
     int a = xx + yy;
-    string aa = to_string(a);
-    reverse(aa.begin(), aa.end());
-    int b = stoi(aa);
-    cout << b;
+    std::string aa = std::to_string(a);
+    std::reverse(aa.begin(), aa.end());
+    int b = std::stoi(aa);
+    std::cout << b;
 }

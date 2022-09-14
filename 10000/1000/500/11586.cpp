@@ -9,11 +9,9 @@ int main()
     int n, k;
     std::string str[100];
     std::cin >> n;
-
     for(int i = 0; i < n; i++)
         std::cin >> str[i];
     std::cin >> k;
-
     if(k == 1)
         for(int i = 0; i < n; i++)
             std::cout << str[i] << "\n";

@@ -6,7 +6,6 @@ int main()
     std::cin.tie(NULL);
     
     int arr[10][10] = {}, max = -1, x, y;
-    
     for(int i = 0; i < 9; i++)
     {
         for(int j = 0; j < 9; j++)

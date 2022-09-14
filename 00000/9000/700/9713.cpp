@@ -13,10 +13,8 @@ int main()
         std::cin >> n;
         int tmp = 0;
         for(int j = 0; j <= n; j++)
-        {
             if(j % 2 != 0)
                 tmp += j;
-        }
         std::cout << tmp << "\n";
     }
 }

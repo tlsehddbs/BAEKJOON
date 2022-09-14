@@ -7,9 +7,7 @@ int main()
 
     int v, a = 0, b = 0;
     char tmp;
-
     std::cin >> v;
-    
     for(int i = 0; i < v; i++)
     {
         std::cin >> tmp;

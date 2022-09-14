@@ -7,7 +7,6 @@ int main()
     int n, tmp, cnt = 0;
     std::cin >> n;
     tmp = n;
-    
     while(true)
     {
         tmp = (tmp % 10) * 10 + ((tmp / 10) + (tmp % 10)) % 10;

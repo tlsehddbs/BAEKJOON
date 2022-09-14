@@ -5,7 +5,6 @@ int main()
     int n, res, cnt = 0;
     std::cin >> n;
     res = 1000 - n;
-
     while(res != 0)
     {
         if(res >= 500)

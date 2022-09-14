@@ -6,7 +6,6 @@ int main()
     int n, m;
     std::string str;
     std::cin >> n >> m;
-
     for(int i = 0; i < n; i++)
     {
         std::cin >> str;

@@ -12,14 +12,12 @@ int main()
     std::string str;
     std::cin >> n;
     std::cin.ignore();
-
     for(int i = 0; i < n; i++)
     {
         std::getline(std::cin, str);
         std::istringstream ss(str);
         std::string substr;
         std::vector<std::string> v;
-
         while(std::getline(ss, substr, ' '))
             v.push_back(substr);
         std::reverse(v.begin(), v.end());

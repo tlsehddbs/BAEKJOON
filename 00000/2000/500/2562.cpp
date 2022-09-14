@@ -3,7 +3,6 @@
 int main()
 {
     int n, arr[10], max = 0, idx = 0;
-
     for(int i = 1; i < 10; i++)
     {
         std::cin >> arr[i];

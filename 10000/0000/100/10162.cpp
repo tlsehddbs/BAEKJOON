@@ -3,9 +3,7 @@
 int main()
 {
     int t, a = 0, b = 0, c = 0;
-
     std::cin >> t;
-
     if(t % 10 != 0)
         std::cout << "-1";
     else

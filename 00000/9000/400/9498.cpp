@@ -5,7 +5,6 @@ int main()
 {
     int a;
     cin >> a;
-    
     if(90 <= a)
         cout << "A\n";
     else if(80 <= a)

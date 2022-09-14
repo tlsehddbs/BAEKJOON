@@ -7,7 +7,6 @@ int main()
 
     int n, arr[100001] = {}, cnt = 0, cmpr = 0;
     std::cin >> n;
-
     for(int i = 0; i < n; i++)
         std::cin >> arr[i];
     for(int i = n - 1; i >= 0; i--)

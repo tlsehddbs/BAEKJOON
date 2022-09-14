@@ -4,7 +4,6 @@ int main()
 {
     int n, x, y, q1 = 0, q2 = 0, q3 = 0, q4 = 0, ax = 0;
     std::cin >> n;
-
     for(int i = 0; i < n; i++)
     {
         std::cin >> x >> y;

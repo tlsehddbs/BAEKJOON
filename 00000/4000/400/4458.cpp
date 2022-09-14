@@ -9,7 +9,6 @@ int main()
     std::string str;
     std::cin >> n;
     std::cin.ignore();
-
     for(int i = 0; i < n; i++)
     {
         std::getline(std::cin, str);

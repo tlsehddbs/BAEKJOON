@@ -7,7 +7,6 @@ int main()
     
     int t, n, arr[21] = {};
     std::cin >> t;
-
     for(int i = 0; i < t; i++)
     {
         int min = 100, max = -1;

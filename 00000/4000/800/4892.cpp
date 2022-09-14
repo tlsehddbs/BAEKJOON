@@ -12,7 +12,6 @@ int main()
         std::cin >> n;
         if(n == 0)
             return 0;
-        
         n1 = 3 * n;
         if(n1 % 2 == 0)
             n2 = n1 / 2;
@@ -24,7 +23,6 @@ int main()
             n = 2 * n4;
         else
             n = 2 * n4 + 1;
-
         if(n1 % 2 == 0)
             std::cout << i + 1 << ". even " << n4 << "\n";
         else
