@@ -22,7 +22,7 @@ int main()
         std::cin >> tmp >> str;
         v.push_back(std::pair(tmp, str));
     }
-    std::sort(v.begin(), v.end(), comp);
+    std::stable_sort(v.begin(), v.end(), comp);
     for(int i = 0; i < n; i++)
         std::cout << v[i].first << " " << v[i].second << "\n";
 }
