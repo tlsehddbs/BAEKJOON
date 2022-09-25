@@ -2,9 +2,26 @@
 
 int main()
 {
+    bool java = false, cpp = false;
     std::string str;
     std::cin >> str;
-    if(str.find('_') != std::string::npos)
+    for(int i = 0; i < str.length(); i++)
+    {
+        if(str[i] == '_')
+        {
+            if(str[i - 1] == '_')
+            {
+                std::cout << "Error!";
+                return 0;
+            }
+            java = true;
+        }
+        else if(str[i] >= 'A' && str[i] <= 'Z')
+            cpp = true;
+    }
+    if((java && cpp) || (str[0] >= 'A' && str[0] <= 'Z') || str[0] == '_' || str[str.length() - 1] == '_')
+        std::cout << "Error!";
+    else if(java)
         for(int i = 0; i < str.length(); i++)
         {
             if(str[i] == '_')
@@ -14,7 +31,7 @@ int main()
             else
                 std::cout << str[i];
         }
-    else
+    else if(cpp)
     {
         for(int i = 0; i < str.length(); i++)
         {
@@ -24,4 +41,6 @@ int main()
                 std::cout << str[i];
         }
     }
+    else
+        std::cout << str;
 }
