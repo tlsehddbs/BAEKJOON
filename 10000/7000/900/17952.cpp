@@ -16,12 +16,17 @@ int main()
         if(tmp == 1)
         {
             std::cin >> a >> t;
-            for(int j = 0; j < t; j++)
-                s.push({ a, j });
+            s.push({ a, t });
         }
-        if(s.top().second == 0)
-            score += s.top().first;
-        s.pop();
+        if(!s.empty())
+        {
+            s.top().second--;
+            if(s.top().second == 0)
+            {
+                score += s.top().first;
+                s.pop();
+            }
+        }
     }
     std::cout << score;
 }
