@@ -13,5 +13,5 @@ int main()
         num = std::to_string(res);
         cnt++;
     }
-    std::cout << cnt << "\n" << (res % 3 == 0 ? "YES\n" : "NO\n");
+    std::cout << cnt << "\n" << (std::stoi(num) % 3 == 0 ? "YES\n" : "NO\n");
 }
