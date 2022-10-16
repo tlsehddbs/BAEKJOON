@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 
-int calc(float s)
+int calc(double s)
 {
     if(s <= 3)          return 100;
     else if(s <= 6)     return 80;
@@ -14,7 +14,7 @@ int calc(float s)
 int main()
 {
     int n;
-    float x, y, tmp;
+    double x, y, tmp;
     std::cin >> n;
     for(int i = 0; i < n; i++)
     {
