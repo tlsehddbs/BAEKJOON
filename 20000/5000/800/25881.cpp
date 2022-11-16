@@ -14,6 +14,6 @@ int main()
         if(tmp <= 1000)
             std::cout << tmp << " " << tmp * min << "\n";
         else
-            std::cout << tmp << " " << 6000 + (tmp - 1000) * over << "\n";
+            std::cout << tmp << " " << 1000 * min + (tmp - 1000) * over << "\n";
     }
 }
