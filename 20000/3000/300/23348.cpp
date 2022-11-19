@@ -2,7 +2,7 @@
 
 int main()
 {
-    int a, b, c, n, ia, ib, ic, max, tmp;
+    int a, b, c, n, ia, ib, ic, max = 0, tmp;
     std::cin >> a >> b >> c >> n;
     for(int i = 0; i < n; i++)
     {
