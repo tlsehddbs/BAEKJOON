@@ -12,7 +12,7 @@ int main()
     std::cin >> l >> str;
     for(int i = 0; i < str.length(); i++)
     {
-        ans += (str[i] - 'a' + 1) * r % 1234567891;
+        ans = (ans + (str[i] - 'a' + 1) * r) % 1234567891;
         r = (r * 31) % 1234567891;
     }
     std::cout << ans;
