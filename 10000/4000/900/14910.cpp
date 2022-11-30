@@ -2,16 +2,20 @@
 
 int main()
 {
-    int n, tmp = 0;
-    while(std::cin >> n)
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+    
+    int n, tmp;
+    std::cin >> n;
+    while(std::cin >> tmp)
     {
-        if(n >= tmp)
-            continue;
-        else
+        if(n > tmp)
         {
             std::cout << "Bad";
             return 0;
         }
-        std::cout << "Good";
+        else
+            n = tmp;
     }
+    std::cout << "Good";
 }
