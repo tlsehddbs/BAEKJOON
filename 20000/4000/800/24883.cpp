@@ -4,8 +4,5 @@ int main()
 {
     char c;
     std::cin >> c;
-    if(c == 'N' || c == 'n')
-        std::cout << "Naver D2";
-    else
-        std::cout << "Naver Whale";
+    std::cout << ((c == 'N' || c == 'n') ? "Naver D2" : "Naver Whale");
 }
