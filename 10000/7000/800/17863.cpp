@@ -4,6 +4,5 @@ int main()
 {
     int n;
     std::cin >> n;
-    n /= 10000;
-    std::cout << (n == 555 ? "YES" : "NO");
+    std::cout << (n / 10000 == 555 ? "YES" : "NO");
 }
