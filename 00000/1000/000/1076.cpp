@@ -1,7 +1,7 @@
 #include <iostream>
 int main()
 {
-    std::string t, color[10] = {"black", "brown", "red", "orange", "yellow", "green", "blue", "violet", "gray", "white" };
+    std::string t, color[10] = { "black", "brown", "red", "orange", "yellow", "green", "blue", "violet", "grey", "white" };
     int mem[3];
     long long r = 0;
 
