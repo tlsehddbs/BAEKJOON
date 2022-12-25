@@ -13,10 +13,10 @@ int main()
         std::cin >> p >> m;
         for(int j = 1; j <= p; j++)
         {
-            std::cin >>  tmp;
-            arr[tmp]++;
+            std::cin >> tmp;
+            arr[tmp - 1]++;
         }
-        for(int j = 1; j <= p; j++)
+        for(int j = 0; j < m; j++)
             if(arr[j] > 1)
                 cnt += arr[j] - 1;
         std::cout << cnt << "\n";
