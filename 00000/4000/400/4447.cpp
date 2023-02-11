@@ -16,8 +16,10 @@ int main()
         std::getline(std::cin, str);
         for(int j = 0; j < str.length(); j++)
         {
-            if(str[j] == 'g' || str[j] == 'G')  g++;
-            if(str[j] == 'b' || str[j] == 'B')  b++;
+            if(str[j] == 'g' || str[j] == 'G')  
+                g++;
+            if(str[j] == 'b' || str[j] == 'B')  
+                b++;
         }
         std::cout << str << " is ";
         if(g == b)

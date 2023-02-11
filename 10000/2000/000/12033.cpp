@@ -18,21 +18,21 @@ int main()
             std::cin >> v[i].first;
             v[i].second = 0;
         }
-        for (int i = 0; i < 2 * n; i++) 
+        for(int i = 0; i < 2 * n; i++) 
         {
-            if (v[i].second == 0)
+            if(v[i].second == 0)
             {
-                for (int j = i + 1; j < 2 * n; j++)
+                for(int j = i + 1; j < 2 * n; j++)
                 {
-                    if (v[j].second == 0) 
+                    if(v[j].second == 0) 
                     {
                         tmp = v[j].first * 0.75;
-                        if (v[i].first == tmp) 
+                        if(v[i].first == tmp) 
                         {
                             v[j].second = 1;
                             break;
                         }
-                        else if (tmp > v[i].first)
+                        else if(tmp > v[i].first)
                             break;
                     }
                 }

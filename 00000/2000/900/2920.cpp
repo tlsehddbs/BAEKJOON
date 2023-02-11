@@ -1,9 +1,8 @@
 #include <iostream>
 
-int main(){
-
+int main()
+{
 	int n[8] = {}, a = 0, d = 8;
-		
 	for(int i = 0; i < 8; i++)
     {
 		std::cin >> n[i];

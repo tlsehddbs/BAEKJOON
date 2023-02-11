@@ -15,9 +15,6 @@ int main()
         std::cout << a << " & " << b;
         std::sort(a.begin(), a.end());
         std::sort(b.begin(), b.end());
-        if(a == b)
-            std::cout << " are anagrams.\n";
-        else
-            std::cout << " are NOT anagrams.\n";
+        std::cout << (a == b ? " are anagrams.\n" : " are NOT anagrams.\n");
     }
 }

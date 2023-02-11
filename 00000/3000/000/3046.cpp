@@ -6,7 +6,6 @@ int main()
     std::cin.tie(NULL);
 
     int R1, S;
-
     std::cin >> R1 >> S;
     std::cout << S * 2 - R1;
 }

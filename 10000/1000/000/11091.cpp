@@ -23,17 +23,13 @@ int main()
                 arrcnt++;
         }
         if(arrcnt == 26)
-        {
             std::cout << "pangram\n";
-        }
         else
         {
             std::cout << "missing ";
             for(int j = 0; j < 26; j++)
-            {
                 if(arr[j] == 0)
                     std::cout << char(j + 97);
-            }
             std::cout << "\n";
         }
     }

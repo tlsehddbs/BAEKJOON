@@ -10,18 +10,18 @@ void BFS(int y, int x)
 {
 	q.push({ y, x });
 	vis[y][x] = 1;
-	while (!q.empty())
+	while(!q.empty())
 	{
 		y = q.front().first;
 		x = q.front().second;
 		q.pop();
-		for (int i = 0; i < 8; i++)
+		for(int i = 0; i < 8; i++)
 		{
 			int cy = y + py[i];
 			int cx = x + px[i];
-			if (cy >= 0 && cx >= 0 && cy < h && cx < w) 
+			if(cy >= 0 && cx >= 0 && cy < h && cx < w) 
             {
-				if (arr[cy][cx] == 1 && vis[cy][cx] == 0)
+				if(arr[cy][cx] == 1 && vis[cy][cx] == 0)
 				{
 					q.push({ cy, cx });
 					vis[cy][cx] = 1;

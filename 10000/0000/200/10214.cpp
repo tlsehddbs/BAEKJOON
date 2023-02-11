@@ -16,9 +16,6 @@ int main()
             yy += y;
             kk += k;
         }
-        if(yy == kk)
-            std::cout << "Draw\n";
-        else
-            std::cout << (yy > kk ? "Yonsei\n" : "Korea\n"); 
+        std::cout << (yy == kk ? "Draw\n" : yy > kk ? "Yonsei\n" : "Korea\n");
     }
 }

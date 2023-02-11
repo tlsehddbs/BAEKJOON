@@ -5,8 +5,8 @@ int main()
 {
     std::ios_base::sync_with_stdio(false);
     std::cin.tie(NULL);
-    std::string str;
 
+    std::string str;
     while(true)
     {
         std::getline(std::cin, str);

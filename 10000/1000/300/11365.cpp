@@ -8,7 +8,7 @@ int main()
         std::getline(std::cin, str);
         if(str == "END")
             break;
-        for (int i = 0; i < str.length(); i++) 
+        for(int i = 0; i < str.length(); i++) 
             std::cout << str[str.length() - i - 1];
         std::cout << "\n";
     }

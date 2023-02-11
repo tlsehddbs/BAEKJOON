@@ -16,10 +16,6 @@ int main()
         for(int i = 2; i <= n; i++)
             if(n % i == 0)
                 cnt++;
-        if(cnt == 1)
-            std::cout << "Yes";
-        else
-            std::cout << "No";
+        std::cout << (cnt == 1 ? "Yes" : "No");
     }
-    
 }

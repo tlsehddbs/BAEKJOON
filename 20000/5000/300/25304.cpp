@@ -9,8 +9,5 @@ int main()
         std::cin >> a >> b;
         sum += a * b;
     }
-    if(bill == sum) 
-        std::cout << "Yes";
-    else 
-        std::cout << "No";
+    std::cout << (bill == sum ? "Yes" : "No");
 }

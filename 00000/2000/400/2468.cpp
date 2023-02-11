@@ -13,7 +13,7 @@ void BFS(int y, int x, int h)
 		y = q.front().first;
 		x = q.front().second;
 		q.pop();
-		for (int i = 0; i < 4; i++)
+		for(int i = 0; i < 4; i++)
 		{
 			int cy = y + py[i];
 			int cx = x + px[i];

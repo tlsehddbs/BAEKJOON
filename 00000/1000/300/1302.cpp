@@ -13,7 +13,7 @@ int main()
         std::cin >> str;
         mp[str]++;
     }
-    for (auto s = mp.begin(); s != mp.end(); s++)
+    for(auto s = mp.begin(); s != mp.end(); s++)
     {
         if(s->second > max)
         {

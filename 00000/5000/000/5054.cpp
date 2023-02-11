@@ -14,8 +14,10 @@ int main()
         for(int j = 0; j < n; j++)
         {
             std::cin >> arr[j];
-            if(arr[j] > max) max = arr[j];
-            if(arr[j] < min) min = arr[j];
+            if(arr[j] > max) 
+                max = arr[j];
+            if(arr[j] < min) 
+                min = arr[j];
         }
         std::cout << (max - min) * 2 << "\n";
     }

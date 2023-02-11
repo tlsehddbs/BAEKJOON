@@ -11,11 +11,10 @@ int main()
     for(int i = 0; i < v; i++)
     {
         std::cin >> tmp;
-        if(tmp == 'A') a++;
-        if(tmp == 'B') b++;
+        if(tmp == 'A') 
+            a++;
+        if(tmp == 'B') 
+            b++;
     }
-    if(a == b) 
-        std::cout << "Tie";
-    else 
-        std::cout << ((a > b) ? "A" : "B");
+    std::cout << (a == b ? "Tie" : a > b ? "A" : "B");
 }

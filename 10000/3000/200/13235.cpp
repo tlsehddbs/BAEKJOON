@@ -7,8 +7,5 @@ int main()
     std::cin >> str;
     tmp = str;
     std::reverse(tmp.begin(), tmp.end());
-    if(str == tmp)
-        std::cout << "true";
-    else
-        std::cout << "false";
+    std::cout << (str == tmp ? "true" : "false");
 }
