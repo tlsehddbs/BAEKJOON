@@ -14,7 +14,6 @@ int main()
         }
         else
             arr[tmp]++;
-        
     }
     std::cout << err;
 }
