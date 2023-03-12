@@ -19,14 +19,16 @@ int main()
         {
             for(int i = 0; i < sv.size(); i++)
             {
-                for(auto a = m.begin(); a != m.end(); a++)
-                {
-                    if(sv[i] == a->first)
-                    {
-                        std::cout << a->first << ": " << a->second << "\n";
-                        cnt += a->second;
-                    }
-                }
+                std::cout << sv[i] << ": " << m[sv[i]] << "\n";
+                cnt += m[sv[i]];
+                // for(auto a = m.begin(); a != m.end(); a++)
+                // {
+                //     if(sv[i] == a->first)
+                //     {
+                //         std::cout << a->first << ": " << a->second << "\n";
+                //         cnt += a->second;
+                //     }
+                // }
             }
             std::cout << "Grand Total: " << cnt;
             return 0;
