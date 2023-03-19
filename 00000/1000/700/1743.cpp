@@ -2,7 +2,7 @@
 #include <queue>
 
 int n, m, k, cnt, max = 0, arr[100][100] = {}, vis[100][100] = {}, px[4] = { -1, 1, 0, 0 }, py[4] = { 0, 0, -1, 1 };
-std::queue<std::pair<int, int>> q;
+std::queue<std::pair<int, int> > q;
 
 void BFS(int y, int x)
 {
@@ -19,14 +19,12 @@ void BFS(int y, int x)
 			int cy = y + py[i];
 			int cx = x + px[i];
 			if(cy >= 0 && cx >= 0 && cy < n && cx < m) 
-            {
 				if(arr[cy][cx] == 1 && vis[cy][cx] == 0)
 				{
 					q.push({ cy, cx });
 					vis[cy][cx] = 1;
 					cnt++;
 				}
-			}
 		}
 	}
 }
@@ -41,9 +39,7 @@ int main()
         arr[r - 1][c - 1] = 1;
     }
     for(int i = 0; i < n; i++)
-    {
         for(int j = 0; j < m; j++)
-        {
             if(arr[i][j] == 1 && vis[i][j] == 0)
             {
                 BFS(i, j);
@@ -51,7 +47,5 @@ int main()
                     max = cnt;
                 cnt = 0;
             }
-        }
-    }
     std::cout  << max;
 }

@@ -4,7 +4,7 @@
 
 int w, h, cnt, max = 0, vis[750][750] = {}, px[8] = { -1, -1, 0, 1, 1, 1, 0, -1 }, py[8] = { 0, 1, 1, 1, 0, -1, -1, -1 };
 char arr[750][750] = {};
-std::queue<std::pair<int, int>> q;
+std::queue<std::pair<int, int> > q;
 
 void BFS(int y, int x)
 {
@@ -21,14 +21,12 @@ void BFS(int y, int x)
 			int cy = y + py[i];
 			int cx = x + px[i];
 			if(cy >= 0 && cx >= 0 && cy < h && cx < w) 
-            {
 				if(arr[cy][cx] == '.' && vis[cy][cx] == 0)
 				{
 					q.push({ cy, cx });
 					vis[cy][cx] = 1;
 					cnt++;
 				}
-			}
 		}
 	}
 }

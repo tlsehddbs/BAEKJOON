@@ -14,14 +14,12 @@ int main()
     std::queue<std::pair<int, std::pair<int, int> > > q;
     std::cin >> n >> k;
     for(int i = 1; i <= n; i++)
-    {
         for(int j = 1; j <= n; j++)
         {
             std::cin >> arr[i][j];
             if(arr[i][j] != 0)
                 v.push_back(std::pair(arr[i][j], std::pair(i, j)));
         }
-    }
     std::cin >> s >> x >> y;
     std::sort(v.begin(), v.end());
     for(int i = 0; i < v.size(); i++)
@@ -32,7 +30,6 @@ int main()
         for(int i = 0; i < tmpsize; i++)
         {
             for(int j = 0; j < 4; j++)
-            {
                 if(q.front().second.first + ya[j] > 0 && q.front().second.first + ya[j] <= n && 
                    q.front().second.second + xa[j] > 0 && q.front().second.second + xa[j] <= n && 
                    arr[q.front().second.first + ya[j]][q.front().second.second + xa[j]] == 0)
@@ -40,7 +37,6 @@ int main()
                     arr[q.front().second.first + ya[j]][q.front().second.second + xa[j]] = q.front().first;
                     q.push(std::pair(q.front().first, std::pair(q.front().second.first + ya[j], q.front().second.second + xa[j])));
                 }
-            }
             q.pop();
         }
         t++;
