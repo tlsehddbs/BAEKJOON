@@ -33,16 +33,12 @@ int main()
     {
         t++;
         for(int i = 0; i < w.size(); i++)
-        {
             for(int j = 0; j < b.size(); j++)
-            {
                 if(w[i] >= b[j])
                 {
                     b.erase(b.begin() + j);
                     break;
                 }
-            }
-        }
     }
     std::cout << t;
 }
