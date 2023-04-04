@@ -3,11 +3,11 @@
 int main()
 {
     int max = -1, sum = 0;
-    for(int i = 0; i < 10; i++)
+    for(int i = 0; i < 4; i++)
     {
-        int getOn, getOff;
-        std::cin >> getOff >> getOn;
-        sum += getOn - getOff;
+        int t, f;
+        std::cin >> f >> t;
+        sum += t - f;
         if(sum > max)
             max = sum;
     }

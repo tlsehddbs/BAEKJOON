@@ -47,5 +47,5 @@ int main()
                     max = cnt;
                 cnt = 0;
             }
-    std::cout  << max;
+    std::cout << max;
 }

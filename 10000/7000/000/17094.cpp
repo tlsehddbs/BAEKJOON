@@ -7,8 +7,5 @@ int main()
     std::cin >> s >> str;
     for(int i = 0; i < str.length(); i++)
         str[i] == '2' ? cnt1++ : cnt2++;
-    if(cnt1 == cnt2)
-        std::cout << "yee";
-    else
-        std::cout << (cnt1 > cnt2 ? "2" : "e");
+    std::cout << (cnt1 == cnt2 ? "yee" : cnt1 > cnt2 ? "2" : "e");
 }

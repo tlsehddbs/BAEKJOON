@@ -32,9 +32,6 @@ int main()
             p2s += calc(tmp);
         }
         std::cout << "SCORE: " << p1s << " to " << p2s << ", ";
-        if(p1s == p2s)
-            std::cout << "TIE.\n";
-        else
-            std::cout << (p1s > p2s ? "PLAYER 1 WINS.\n" : "PLAYER 2 WINS.\n");
+        std::cout << (p1s == p2s ? "TIE.\n" : p1s > p2s ? "PLAYER 1 WINS.\n" : "PLAYER 2 WINS.\n");
     }
 }

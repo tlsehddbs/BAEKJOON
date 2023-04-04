@@ -10,7 +10,6 @@ int main()
             break;
         int cnt = 0;
         for(int i = 0; i < str.length(); i++)
-        {
             if(str[i] == 'A' || 
                str[i] == 'a' ||
                str[i] == 'E' ||
@@ -22,7 +21,6 @@ int main()
                str[i] == 'U' ||
                str[i] == 'u')    
                 cnt++;
-        }
         std::cout << cnt << "\n";
     }
 }

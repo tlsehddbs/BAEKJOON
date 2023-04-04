@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stack>
 
-std::string VPSCheck(std::string str)
+std::string VPS(std::string str)
 {
     std::stack<char> s;
     for(int i = 0; i < str.length(); i++)
@@ -34,6 +34,6 @@ int main()
     for(int i = 0; i < t; i++)
     {
         std::cin >> str;
-        std::cout << VPSCheck(str);
+        std::cout << VPS(str);
     }
 }

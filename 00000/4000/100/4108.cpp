@@ -13,7 +13,6 @@ int main()
             for(int j = 1; j <= c; j++)
                 std::cin >> arr[i][j];
         for(int i = 1; i <= r; i++)
-        {
             for(int j = 1; j <= c; j++)
             {
                 int cnt = 0;
@@ -25,7 +24,6 @@ int main()
                     arr[i][j] = cnt + '0';
                 }
             }
-        }
         for(int i = 1; i <= r; i++)
         {
             for(int j = 1; j <= c; j++)

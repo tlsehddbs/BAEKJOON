@@ -1,4 +1,3 @@
-// 휴식이 필요해 (번외)
 #include <iostream>
 
 int main()

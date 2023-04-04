@@ -10,7 +10,6 @@ int main()
     std::pair<int, int> s, p;
     std::cin >> n;
     for(int i = 0; i < n; i++)
-    {
         for(int j = 0; j < n; j++)
         {
             std::cin >> arr[i][j];
@@ -25,7 +24,6 @@ int main()
                 s.second = j;
             }
         }
-    }
     double calc = std::sqrt(std::pow(s.first - p.first, 2) + std::pow(s.second - p.second, 2));
     if(calc < 5.0)
     {

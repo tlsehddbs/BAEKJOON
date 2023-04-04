@@ -7,7 +7,7 @@ int main()
 
     int t, n, arr[101] = {};
     std::cin >> t;
-    for(int i = 0 ; i < t; i++)
+    for(int i = 0; i < t; i++)
     {
         int sum = 0;
         std::cin >> n;

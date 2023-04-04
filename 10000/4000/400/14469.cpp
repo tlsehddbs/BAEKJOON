@@ -14,11 +14,6 @@ int main()
     }
     std::sort(v.begin(), v.end());
     for(int i = 0; i < v.size(); i++)
-    {
-        if(t <= v[i].first)
-            t = v[i].first + v[i].second;
-        else
-            t += v[i].second;
-    }
+        t <= v[i].first ? t = v[i].first + v[i].second : t += v[i].second;
     std::cout << t;
 }

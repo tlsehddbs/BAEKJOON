@@ -10,6 +10,6 @@ int main()
         std::cin >> a >> b;
         if(a == 0 && b == 0)
             break;
-        std::cout << ((a > b) ? "Yes\n" : "No\n");
+        std::cout << (a > b ? "Yes\n" : "No\n");
     }
 }

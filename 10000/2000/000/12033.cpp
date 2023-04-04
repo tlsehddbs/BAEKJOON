@@ -19,11 +19,8 @@ int main()
             v[i].second = 0;
         }
         for(int i = 0; i < 2 * n; i++) 
-        {
             if(v[i].second == 0)
-            {
                 for(int j = i + 1; j < 2 * n; j++)
-                {
                     if(v[j].second == 0) 
                     {
                         tmp = v[j].first * 0.75;
@@ -35,9 +32,6 @@ int main()
                         else if(tmp > v[i].first)
                             break;
                     }
-                }
-            }
-        }        
         std::cout << "Case #" << tc + 1 << ": ";
         for(int i = 0; i < 2 * n; i++)  
             if(v[i].second == 0)

@@ -16,8 +16,10 @@ int main()
         for(int j = 0; j < n; j++)
         {
             std::cin >> arr[j];
-            if(arr[j] > max) max = arr[j];
-            if(arr[j] < min) min = arr[j];
+            if(arr[j] > max)
+                max = arr[j];
+            if(arr[j] < min)
+                min = arr[j];
         }
         std::sort(arr, arr + n);
         for(int j = 0; j < n - 1; j++)

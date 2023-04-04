@@ -14,8 +14,10 @@ int main()
         std::cin >> carr[i];
         sum += carr[i];
         arr[carr[i] + 4000]++;
-        if(carr[i] > max)   max = carr[i];
-        if(carr[i] < min)   min = carr[i];
+        if(carr[i] > max)
+            max = carr[i];
+        if(carr[i] < min)
+            min = carr[i];
     }
     std::sort(carr, carr + n);
     for(int i = 0; i < 8001; i++)

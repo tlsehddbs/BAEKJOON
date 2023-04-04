@@ -20,7 +20,7 @@ int main()
         for(int j = 0; j < n; j++)
             if(arr[j] > (sum / n))
                 cnt++;
-        std::cout<<std::fixed;
+        std::cout << std::fixed;
         std::cout.precision(3);
         std::cout << (float)cnt / n * 100 << "%\n";
     }

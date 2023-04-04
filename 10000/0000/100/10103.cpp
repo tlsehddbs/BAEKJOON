@@ -10,9 +10,7 @@ int main()
     for(int i = 0; i < n; i++)
     {
         std::cin >> a >> b;
-        if(a == b) 
-            continue;
-        else
+        if(a != b) 
             a > b ? y -= a : x -= b;
     }
     std::cout << x << "\n" << y;

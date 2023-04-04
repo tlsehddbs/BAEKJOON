@@ -10,7 +10,6 @@ int main()
         std::cin >> n;
         std::cout << "Pairs for " << n << ": ";
         for(int i = 1; i <= n; i++)
-        {
             for(int j = i + 1; j < n; j++)
             {
                 if(i + j == n)
@@ -21,7 +20,6 @@ int main()
                     o = true;
                 }
             }
-        }
         std::cout << "\n";
     }
 }

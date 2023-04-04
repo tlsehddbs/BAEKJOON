@@ -7,7 +7,6 @@ int main()
         std::cin >> arr[i];
     std::cin >> s;
     for(int i = 0; i < 50; i++)
-    {
         if(arr[i] == s)
         {
             if(i + 1 <= 5)          std::cout << "A+";
@@ -18,5 +17,4 @@ int main()
             else if(i + 1 <= 48)    std::cout << "C0";
             else                    std::cout << "F";
         }
-    }
 }

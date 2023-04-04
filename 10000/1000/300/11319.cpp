@@ -5,7 +5,7 @@ int main()
     std::ios_base::sync_with_stdio(false);
     std::cin.tie(NULL);
     
-    char arr[11] = { 'A', 'E', 'I', 'O', 'U', 'a', 'e', 'i', 'o', 'u' };
+    char arr[11] = "AEIOUaeiou";
     int n;
     std::string str;
     std::cin >> n;

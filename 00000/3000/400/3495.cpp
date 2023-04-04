@@ -7,7 +7,6 @@ int main()
     bool t = false;
     std::cin >> h >> w;
     for(int i = 0; i < h; i++)
-    {
         for(int j = 0; j < w; j++)
         {
             std::cin >> arr[i][j];
@@ -19,6 +18,5 @@ int main()
             if(arr[i][j] == '.' && t)
                 res += 2;
         }
-    }
     std::cout << res * 0.5;
 }

@@ -14,12 +14,10 @@ int main()
         mp[str]++;
     }
     for(auto s = mp.begin(); s != mp.end(); s++)
-    {
         if(s->second > max)
         {
             max = s->second;
             res = s->first;
         }
-    }
     std::cout << res;
 }

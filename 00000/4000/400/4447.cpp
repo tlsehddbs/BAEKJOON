@@ -21,10 +21,6 @@ int main()
             if(str[j] == 'b' || str[j] == 'B')  
                 b++;
         }
-        std::cout << str << " is ";
-        if(g == b)
-            std::cout << "NEUTRAL\n";
-        else
-            std::cout << (g > b ? "GOOD\n" : "A BADDY\n");
+        std::cout << str << " is " << (g == b ? "NEUTRAL\n" : g > b ? "GOOD\n" : "A BADDY\n");
     }
 }

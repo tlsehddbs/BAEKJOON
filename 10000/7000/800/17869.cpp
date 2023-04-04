@@ -6,10 +6,7 @@ int main()
     std::cin >> n;
     while(n != 1)
     {
-        if(n % 2 != 0)
-            n += 1;
-        else
-            n /= 2;
+        n % 2 != 0 ? n += 1 : n /= 2;
         cnt++;
     }
     std::cout << cnt;

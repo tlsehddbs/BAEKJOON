@@ -18,10 +18,8 @@ int main()
             arr[tmp]++;
         }
         for(int j = 0; j < 26; j++)
-        {
             if(arr[j] != 0)
                 arrcnt++;
-        }
         if(arrcnt == 26)
             std::cout << "pangram\n";
         else

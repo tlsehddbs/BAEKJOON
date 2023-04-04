@@ -9,7 +9,8 @@ int main()
     {
 		mm += 60;
 		hh -= 1;
-		if(hh < 0) hh = 23;
+		if(hh < 0) 
+            hh = 23;
 	}
     std::cout << hh << " " << mm;
 }

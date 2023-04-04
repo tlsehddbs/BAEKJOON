@@ -13,8 +13,5 @@ int main()
         std::cin >> t;
         b += t * i;
     }
-    if(a == b)
-        std::cout << "T";
-    else
-        std::cout << (a > b ? "A" : "B");
+    std::cout << (a == b ? "T" : a > b ? "A" : "B");
 }

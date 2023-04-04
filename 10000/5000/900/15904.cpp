@@ -3,7 +3,7 @@
 int main()
 {
     int idx = 0;
-    char arr[4] = { 'U', 'C', 'P', 'C'};
+    char arr[5] = "UCPC";
     std::string str;
     std::getline(std::cin, str);
     for(int i = 0; i < str.length(); i++)

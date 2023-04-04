@@ -10,6 +10,6 @@ int main()
     std::string str;
     std::cin >> str;
     for(int i = 1; i < str.length(); i++)
-        (str[i] == str[i - 1]) ? sum += 5 : sum += 10;
+        str[i] == str[i - 1] ? sum += 5 : sum += 10;
     std::cout << sum;
 }

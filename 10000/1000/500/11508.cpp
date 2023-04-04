@@ -15,11 +15,7 @@ int main()
         std::cin >> v[i];
     std::sort(v.rbegin(), v.rend());
     for(int i = 0; i < n; i++)
-    {
-        if(i % 3 == 2)
-            continue;
-        else
+        if(i % 3 != 2)
             sum += v[i];
-    }
     std::cout << sum;
 }
