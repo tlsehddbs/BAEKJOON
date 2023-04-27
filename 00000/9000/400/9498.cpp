@@ -1,18 +1,12 @@
 #include <iostream>
-using namespace std;
 
 int main()
 {
     int a;
-    cin >> a;
-    if(90 <= a)
-        cout << "A\n";
-    else if(80 <= a)
-        cout << "B\n";
-    else if(70 <= a)
-        cout << "C\n";
-    else if(60 <= a)
-        cout << "D\n";
-    else
-        cout << "F\n";
+    std::cin >> a;
+    if(90 <= a)         std::cout << "A\n";
+    else if(80 <= a)    std::cout << "B\n";
+    else if(70 <= a)    std::cout << "C\n";
+    else if(60 <= a)    std::cout << "D\n";
+    else                std::cout << "F\n";
 }

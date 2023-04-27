@@ -2,5 +2,5 @@
 
 int main()
 {
-    std::cout << "ÈŞ½Ä\n";
+    std::cout << "íœ´ì‹\n";
 }
